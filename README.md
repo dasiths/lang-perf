@@ -1,26 +1,24 @@
 # lang-perf
 
-#### Steps for conducting the test
+## Steps for conducting the test
 
-**Dotnet:**
+### Dotnet
 
 - Build
-    ``` dotnet build ./dotnet/HelloWorld -c relase ```
+    `dotnet build ./dotnet/HelloWorld -c relase `
 - Run test 
-    ``` for i in {1..4}; do time ./dotnet/HelloWorld/bin/relase/net8.0/HelloWorld; done ```
+    `for i in {1..1}; do time ./dotnet/HelloWorld/bin/relase/net8.0/HelloWorld; done `
 
-**Rust:**
+### Rust
 - Build
-    ``` cd ./rust/ && cargo build --release  -o ./target/hello_world && cd -```
+    `cd ./rust/ && cargo build --release && cd ..`
 - Run test 
-    ``` for i in {1..4}; do time ./rust/target/release/hello_world; done ```
+    `for i in {1..1}; do time ./rust/target/release/hello_world; done `
 
-**Python**
+### Python
 - Run test 
-    ``` for i in {1..4}; do time python ./pytho/main.py; done ```
+    `for i in {1..1}; do time python ./python/main.py; done `
 
 
-Once you've the result for each language, caluclate average for the real value. 
-
-Here is an example excel sheet with calcualte values and chart for the tests
-![image](https://github.com/user-attachments/assets/9cd56016-a45e-4ea2-918f-b5689a15457d)
+## Results
+![results](images/image.png)
