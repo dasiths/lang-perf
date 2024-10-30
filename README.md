@@ -1,6 +1,6 @@
 # lang-perf
 
-#### Steps for conducting test
+#### Steps for conducting the test
 
 **Dotnet:**
 
@@ -18,3 +18,9 @@
 **Python**
 - Run test 
     ``` for i in {1..4}; do time python ./pytho/main.py; done ```
+
+
+Once you've the result for each language, caluclate average for the real value. 
+
+Here is an example excel sheet with calcualte values and chart for the tests
+![image](https://github.com/user-attachments/assets/9cd56016-a45e-4ea2-918f-b5689a15457d)
