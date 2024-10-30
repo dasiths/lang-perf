@@ -1,0 +1,15 @@
+# Ignore the target directory
+/target/
+
+# Ignore the Cargo.lock file (if you're building a library)
+# Cargo.lock
+
+# Ignore backup and temporary files
+*.rs.bk
+*.swp
+*.swo
+bin
+obj
+target
+dotnet/HelloWorld/bin/Debug/net8.0/HelloWorld.pdb
+rust/Cargo.lock
